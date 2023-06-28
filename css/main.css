@@ -65,7 +65,7 @@ body{
     background-size: 75%;
     margin-top: -20px;
 }
-#games, h3{
+#games, h3, .btn{
     color: #834b16;
 }
 #separator-amiibos{
@@ -81,4 +81,36 @@ body{
     margin-left: -5%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+}
+#amiibos{
+    background: url(../img/bg-01.webp),url(../img/bg-03.webp);
+    background-repeat: no-repeat, repeat;
+    background-position: bottom center, center center;
+    background-size: 100%, auto;
+}
+.amiibo{
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+}
+.amiibo:hover{
+    transform: scale(1.05);
+}
+.amiibo-name{
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+.btn{
+    box-shadow: 0 3px 2px 0 rgba(0,0,0,0.3);
+    font-size: 1.115rem;
+    font-weight: bold;
+}
+.btn:hover{
+    color: #834b16;
+}
+#separator-amiibos-footer{
+    height: 20vw;
 }

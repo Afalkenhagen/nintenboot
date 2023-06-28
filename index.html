@@ -36,13 +36,13 @@
     <div class="carousel slide" id="carouselExample" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="/img/slide01.webp" alt="" class="d-block w-100">
+                <img src="/img/slide01.webp" alt="" class="d-block w-100" loading="lazy">
             </div>
             <div class="carousel-item">
-                <img src="/img/slide02.webp" alt="" class="d-block w-100">
+                <img src="/img/slide02.webp" alt="" class="d-block w-100" loading="lazy">
             </div>
             <div class="carousel-item">
-                <img src="/img/slide03.webp" alt="" class="d-block w-100">
+                <img src="/img/slide03.webp" alt="" class="d-block w-100" loading="lazy">
             </div>
         </div>
     </div>
@@ -51,7 +51,7 @@
         <div id="birthday" class="container w-50 pl-5 rounded-1">
             <div class="row align-items-center">
                 <div class="col-sm p-3">
-                    <img src="img/image01.webp" alt="" class="w-75 mx-auto d-block">
+                    <img src="img/image01.webp" alt="" class="w-75 mx-auto d-block" loading="lazy">
                 </div>
                 <div class="col-sm p-3 text-light text-center">
                     <p class="text-warning h3">Today is</p>
@@ -74,7 +74,7 @@
             <div class="row">
                 <div class="col-sm">
                     <div class="card w-100 card-border mb-5">
-                        <img src="/img/card01.webp" class="card-img-top" alt="animal crossing games">
+                        <img src="/img/card01.webp" class="card-img-top" alt="animal crossing games" loading="lazy">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -83,7 +83,7 @@
                 </div>
                 <div class="col-sm">
                     <div class="card w-100 card-border mb-5">
-                        <img src="/img/card02.webp" class="card-img-top" alt="animal crossing games">
+                        <img src="/img/card02.webp" class="card-img-top" alt="animal crossing games" loading="lazy">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -92,7 +92,7 @@
                 </div>
                 <div class="col-sm">
                     <div class="card w-100 card-border mb-5">
-                        <img src="/img/card03.webp" class="card-img-top" alt="animal crossing games">
+                        <img src="/img/card03.webp" class="card-img-top" alt="animal crossing games" loading="lazy">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -105,6 +105,7 @@
                     <h3 class="text-center" style="color: var(--bs-blue)">More Games on Nintendo.com</h3>
                 </div>
             </div>
+            <!-- esto es una UL LI A flex -->
             <div class="row justify-content-center">
                 <div class="col-2"><a href="#">Nintendo Switch</a></div>
                 <div class="col-2"><a href="#">Nintendo 3DS</a></div>
@@ -122,26 +123,34 @@
     <div id="amiibos" class="px-5 pb-5 bg-success">
         <div class="container">
             <div class="row">
-                <h2 class="text-center text-white text-shadow">Featured Amiibo Figures</h2>
+                <h2 class="text-center text-white text-shadow h1">Featured Amiibo &#8482; Figures</h2>
             </div>
-            <div class="row">
+            <div class="row row-cols-1 row-cols-2 row-cols-sm-2 row-cols-md-4">
                 <div class="col-sm">
-                    <img src="/img/figure01.webp" alt="amiibo figure">
-                    <div class="text-center"><span class="amiibo-name">Isabele</span></div>
+                    <img src="/img/figure01.webp" alt="amiibo figure" class="w-100 amiibo" loading="lazy">
+                    <div class="text-center"><span class="amiibo-name h5 p-2">Isabele</span></div>
                 </div>
                 <div class="col-sm">
-                    <img src="/img/figure02.webp" alt="amiibo figure">
-                    <div class="text-center"><span class="amiibo-name">Kapp'n</span></div>
+                    <img src="/img/figure02.webp" alt="amiibo figure" class="w-100 amiibo" loading="lazy">
+                    <div class="text-center"><span class="amiibo-name h5 p-2">Kapp'n</span></div>
                 </div>
                 <div class="col-sm">
-                    <img src="/img/figure03.webp" alt="amiibo figure">
-                    <div class="text-center"><span class="amiibo-name">Rover</span></div>
+                    <img src="/img/figure03.webp" alt="amiibo figure" class="w-100 amiibo" loading="lazy">
+                    <div class="text-center"><span class="amiibo-name h5 p-2">Rover</span></div>
                 </div>
                 <div class="col-sm">
-                    <img src="/img/figure04.webp" alt="amiibo figure">
-                    <div class="text-center"><span class="amiibo-name">Timmy & Tommy</span></div>
+                    <img src="/img/figure04.webp" alt="amiibo figure" class="w-100 amiibo" loading="lazy">
+                    <div class="text-center"><span class="amiibo-name h5 p-2">Timmy & Tommy</span></div>
                 </div>
             </div>
+            <div class="row py-5">
+                <div class="col text-center">
+                  <a href="#" class="link-dark">
+                    <button class="btn btn-warning btn-lg rounded-4 p-3 font-weight-bold">View Amiibo catalog</button>
+                  </a>
+                </div>
+            </div>
+            <div id="separator-amiibos-footer"></div>
         </div>
 
     </div>
