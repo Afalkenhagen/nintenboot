@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i");
 
-body{
+body, h1,h2,h3,h4,h5, button, .amiibo-name{
     font-family: arvo, serif;
 }
 
@@ -113,4 +113,14 @@ body{
 }
 #separator-amiibos-footer{
     height: 20vw;
+}
+#play{   
+    background: url(/img/bg-04.webp);
+    background-color: rgb(255, 255, 219);
+    background-size: 40px 40px;
+}
+#footer{   
+    background: url(/img/bg-04.webp);
+    background-color: rgb(244, 144, 24);
+    background-size: 50px 50px;
 }
