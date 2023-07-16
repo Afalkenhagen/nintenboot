@@ -4,8 +4,8 @@ This is a learning project in Bootstrap, inspired by the Nintendo Animal Crossin
 
 ## Screenshots
 
-![Screenshot 1](/screenshot.png)
-![Screenshot 2](/screenshot1.png)
+![Screenshot 1](/screenshot.jpg)
+![Screenshot 2](/screenshot1.jpg)
 
 ## Deploy
 
